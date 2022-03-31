@@ -1,0 +1,6 @@
+# Weather_app
+Simple weather app to check temperature.
+it show current temperature first and then if select
+country name and city name give it show temperature of perticular city.
+By using api get data of country and city name
+and temerature data.
