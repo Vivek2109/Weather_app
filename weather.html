@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> -->
+</head>
+<body>
+
+    <!-- to store data of cities of each country for using one at time -->
+
+    <div id="data_hold"></div>
+
+    <!-- to select country name and city name -->
+
+    <div id="select_section">
+    <!-- <div id="country">
+        Select country
+        <div id="country_name_div">
+        <ul id="country_name">
+           <li>india 1</li>
+        </ul>
+        </div>
+    </div> -->
+    <div id="country">
+        <div id="country_select">Select country</div>
+        <div id="country_name_div">
+        <ul id="country_name">
+           <li>india 1</li>
+        </ul>
+        </div>
+    </div>
+    <div id="city">
+        <div id="city_select">Select_country</div>
+       
+        </div>
+    
+    <button id="Reset" onclick="location.reload()">Currunt Location</button>
+    </div>
+
+
+    <!-- location section -->
+
+    <div id="location">
+       
+       <h1 id="location_timezone">
+           <span id="timezone_country">country</span>
+           <span>,</span>
+           <span id="timezone_city">City</span>
+       </h1> 
+       <img id="icon" src=""/>
+    </div>
+
+    <!-- temperature section -->
+    <div id="temperature">
+        <div id="digree_section">
+        <h2 id="digree">00</h2>
+        <span id="para">C</span>
+        </div>
+        <div id="discription"> discription
+        
+        
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
